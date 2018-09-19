@@ -9,6 +9,7 @@ public class HeyThere {
 		Vector<String> v = new Vector<>();
 		v.add("One");
 		v.add("Two");
+		v.add("Three");
 		
 		System.out.println(v);
 		
