@@ -1,6 +1,7 @@
 package ru.spbstu.tema.pp;
 
 import java.util.Vector;
+import java.util.Date;
 
 public class HeyThere {
 	public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class HeyThere {
 		v.add("Three");
 		
 		System.out.println(v);
+		System.out.println(new Date());
 		
 	}
 }
