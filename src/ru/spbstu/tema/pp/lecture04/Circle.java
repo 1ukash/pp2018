@@ -3,14 +3,11 @@ package ru.spbstu.tema.pp.lecture04;
 public class Circle extends Shape {
 	
 	private int radius;
-	private int color;
-	private int material;
+	
 
 	public Circle(Coords coords, int radius, int color, int material) {
-		super(coords);
+		super(coords, color, material);
 		this.radius = radius;
-		this.color = color;
-		this.material = material;
 	}
 
 	public int getRadius() {
@@ -26,13 +23,5 @@ public class Circle extends Shape {
 		return Math.PI * radius * radius;
 	}
 
-	@Override
-	public int getColor() {
-		return color;
-	}
 
-	@Override
-	public int getMaterial() {
-		return material;
-	}
 }
