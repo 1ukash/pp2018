@@ -7,8 +7,8 @@ public class StartHere {
 		Foo f = new Foo("First obj", 11, 7);
 		System.out.println(f.getName());
 
-		Object o = new Circle(new Coords(1, 1), 10, Colored.BLACK, Material.METAL);
-		Circle c = new Circle(new Coords(1, 1), 10, Colored.RED, Material.WOOD);
+		Object o = new Circle(new Coords(1, 1), 10, Color.BLACK, Material.METAL);
+		Circle c = new Circle(new Coords(1, 1), 10, Color.RED, Material.WOOD);
 
 		System.out.println(c instanceof Circle);
 

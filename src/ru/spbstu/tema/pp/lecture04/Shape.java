@@ -1,12 +1,12 @@
 package ru.spbstu.tema.pp.lecture04;
 
-public abstract class Shape implements Colored, Material {
+public abstract class Shape implements Colored, Materialized {
 	
 	private Coords coords;
-	private int color;
-	private int material;
+	private Color color;
+	private Material material;
 	
-	public Shape(Coords coords, int color, int material) {
+	public Shape(Coords coords, Color color, Material material) {
 		super();
 		this.color = color;
 		this.material = material;
@@ -26,12 +26,12 @@ public abstract class Shape implements Colored, Material {
 	}
 	
 	@Override
-	public int getColor() {
+	public Color getColor() {
 		return color;
 	}
 
 	@Override
-	public int getMaterial() {
+	public Material getMaterial() {
 		return material;
 	}
 	

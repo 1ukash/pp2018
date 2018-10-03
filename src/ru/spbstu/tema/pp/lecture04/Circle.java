@@ -5,7 +5,7 @@ public class Circle extends Shape {
 	private int radius;
 	
 
-	public Circle(Coords coords, int radius, int color, int material) {
+	public Circle(Coords coords, int radius, Color color, Material material) {
 		super(coords, color, material);
 		this.radius = radius;
 	}
